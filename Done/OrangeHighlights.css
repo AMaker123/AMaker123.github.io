@@ -1,15 +1,23 @@
 /*BEGIN Xbox One Controller Styling*/
 .controller.xbox {
-    background: url(xbox-assets/base.svgz);
+    background: url(basemod.png);
     height: 630px;
     width: 750px;
     /*    margin-left: -375px;
         margin-top: -285px;*/
 }
 
+.xbox.disconnected {
+    background: url(disconnectedmod.png);
+}
+
+.xbox.disconnected div {
+    display: none;
+}
+
 .xbox .quadrant {
     position: absolute;
-    background: url(xbox-assets/quadrant.svgz);
+    background: url(quadrantmod.png);
     height: 45px;
     width: 45px;
     top: 258px;
@@ -46,7 +54,7 @@
 }
 
 .xbox .back, .xbox .start {
-    background: url(xbox-assets/start-select.svgz);
+    background: url(start-selectmod.png);
     width: 33px;
     height: 33px;
     opacity: 0;
@@ -75,7 +83,7 @@
 
 .xbox .button {
     position: absolute;
-    background: url(xbox-assets/abxy.svgz);
+    background: url(abxymod.png);
     width: 48px;
     height: 48px;
 }
